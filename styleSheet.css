@@ -1,0 +1,327 @@
+/*---Generalized styling*/
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    border: 0;  
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+a {
+    text-decoration: navajowhite;
+    color: inherit;
+  }
+
+/*Header styling*/
+.header{
+    margin-left: -13% ;
+    margin-right: -13% ;
+    padding-top: 50px;
+    padding-left: 13%;
+    padding-right: 13%;
+    background-color: rgb(240, 240, 239);
+}
+/* Nav Bar style */
+.navBar{
+    position: relative;
+    margin-bottom: 100px;
+}
+.navBar h2{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: -2px;
+}
+.navBar ul{
+    position: absolute;
+    display: inline-block;
+    margin-top: 10px;
+    right: 0px;
+}
+.navBar ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    color: black;
+    text-decoration: salmon;
+    vertical-align: top;
+    margin-left:80px;
+    margin-top: 0px;
+}
+
+.navBar ul li :hover{
+    color: orange;
+}
+
+
+/* ------ */
+.Welcome{
+    position: relative;
+    width: 100%;   
+    height: 700px;
+}
+.Welcometext
+{
+    position: absolute;
+    text-align: left;
+    width: 50%;
+    height: 100%;
+}
+.Welcometext h1{
+    font-size: 80px;
+    margin: 0  ;
+    margin-bottom: 60px;
+}
+.Welcometext p{
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.5;
+    word-spacing: 5px;
+    margin-bottom: 50px;
+}
+.Welcome img{
+    position: absolute;
+    right: 0px;
+}
+.orangeButton{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    padding: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.blackButton{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/*
+h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px;
+    margin-top: 100px;
+}
+p{
+    text-align: center;
+    font-size: 22px;
+    margin: 5px;
+}*/
+/*---table styling---*/
+.OurServices table{
+    text-align: center;
+    width: 100%;
+    line-height: 1.5;
+    padding-top: 50px;
+    margin: 0;
+}
+.OurServices table th{
+    margin: 0;
+    font-size: 22px;
+    color: orange;
+}
+.OurServices table td{
+    text-align: center;
+    margin: 0;
+    line-height: 1.5;
+    word-spacing: 5px;
+    padding: 1%;
+    font-size: 22px;
+}
+.OurServices a{
+    display: block;
+    width: 150px;
+    text-align: center;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.OurServices a:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+}
+.bordered-table{
+    height: 500px;
+    width: 1000px;
+    margin: 5px;
+    border: 3px solid grey;
+    border-radius: 10px;
+}
+.bordered-table:hover{
+    border-top: 5px solid orange;
+    cursor: pointer;
+}
+
+.FreshFruites table{
+    margin-top: 50px;
+}
+.FreshFruites th{
+    text-align: left;
+    font-size: 32px;
+    height: 100px;
+}
+.FreshFruites td{
+    height: 150px;
+    padding-right: 50px;
+    vertical-align: top;
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.5;
+}
+.FreshFruites table .center{
+    text-align: center;
+}
+.FreshFruites table a{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+.FreshFruites table a:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: solid 1px black;
+}
+
+.headerwithbg{    
+    margin-left: -10%;
+    margin-right: -10%;
+    width: auto;
+    height: 780px;
+    background-image: url(images/tasty.png);
+}
+.headerwithbg h1{
+    text-align: center;
+    color: white;
+    font-size: 150px;
+    width: 100%;
+    padding-top: 200px;
+}
+
+.Testimonal{
+    text-align: center;
+}
+
+
+/*form styling*/
+form{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    height: 500px;
+}
+form img{
+    position: absolute;
+    right: 0;
+}
+form table{
+    display: inline-block;
+    left: 0;
+    width: 50%;
+}
+form table th {
+    font-size: 32px;
+    text-align: left;
+    height: 100px;
+}
+form table td {
+    height: 50px;
+    text-align: left;
+}
+form table td [placeholder="Message"]{
+    margin-top: 100px;
+}
+form table input{
+    font-size: 22px;
+    border-style: none ;
+    border-bottom: 1px solid rgba(205, 195, 195, 0.72);
+    width: 900px;
+    vertical-align: middle;
+}
+form input:focus{
+    border-style: none ;
+    border-bottom: 1px solid black;
+}
+form .orangeButton{
+    border-style: none ;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    padding: 15px;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.footer table th,td{
+    text-align: left;
+}
+.footer th{
+    font-size: 32px;
+    width: 500px;
+    height: 70px;
+}
+.footer td{
+    font-size: 22px;
+    vertical-align: top;
+    line-break: loose;
+    padding-right: 200px;
+}
+.FollowUs input{
+    font-size: 22px;
+}
+.FollowUs .orangeButton{
+    border-style: none ;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    padding: 15px;
+    margin-right: 20px;
+    margin-top: 20px;
+        cursor: pointer;
+}
+
+
+.copyright{
+    margin-top: 100px;
+    height: 50px;
+    background-color: rgb(236, 236, 235);
+    margin-left: -10%;
+    margin-right: -10%;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+
+
+
